@@ -1,0 +1,284 @@
+body
+{
+    background-image: url("images/rb2.jpg");
+    
+}
+
+
+.content
+{
+    margin:auto;
+    width:604px;
+    height:740px;
+    border:solid;
+    border-color:#333333;
+    background-color:#E1F4F3;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+}
+
+.month
+{
+    content :url("months/management.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month01
+{
+    content :url("months/mon01.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+    
+}
+
+.month02
+{
+    content :url("months/mon02.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month03
+{
+    content :url("months/mon03.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month04
+{
+    content :url("months/mon04.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month05
+{
+    content :url("months/mon05.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month06
+{
+    content :url("months/mon06.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month07
+{
+    content :url("months/mon07.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month08
+{
+    content :url("months/mon08.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month09
+{
+    content :url("months/mon09.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month10
+{
+    content :url("months/mon10.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month11
+{
+    content :url("months/mon11.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.month12
+{
+    content :url("months/mon12.jpg");
+    height:250px;
+    width:600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    /* z-index: -1; */
+}
+
+.title
+{
+    position:relative;
+    text-align: center;
+    
+    font-family: serif;
+    color: #072227;
+    border:solid;
+    margin:0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    height:250px;
+    width:600px;
+}
+
+.centered1
+{
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.centered2
+{
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.timeSec
+{
+    float:right;
+}
+.time
+{
+    
+    display: flex;
+    
+    font-family: cursive;
+    font-size:x-large;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 10px;
+    
+    
+    color: #FFF;
+    background-color: #333333;
+    height:100px;
+    width: 120px;
+    border-radius: 20%;
+}
+
+.timeClock
+{
+    border-radius: 40%;
+    background-color: cornflowerblue;
+}
+
+
+
+
+.btn
+{
+   height: 20px;
+   width:20px; 
+}
+
+.add-to-do
+{
+    position: absolute;
+    bottom: 5px;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin-left: 80px;
+}
+
+.list
+{
+    list-style: none;
+    position: absolute;
+    margin:150px 0 50px;
+}
+
+.listButton
+{
+    height:15px;
+    width: 15px;
+}
+
+.listText
+{
+    margin-left: 10px;
+    height:30px;
+    width: 350px;
+    background-color: aliceblue;
+    border-color:#AEFEFF
+}
+
+.listTrash
+{
+    height: 22px;
+    width: 22px;
+    margin-left: 50px;
+}
+
+.dateSec
+{
+    float:left; 
+    margin:13px;
+}
+
+#date
+{  
+   
+    height:25px;
+    width:250px;
+    border-color:#AEFEFF ;
+    background-color: aliceblue;
+}
+
+#input
+{
+    height: 25px;
+    width: 250px;
+    background-color: aliceblue;
+    border-color:#AEFEFF
+}
